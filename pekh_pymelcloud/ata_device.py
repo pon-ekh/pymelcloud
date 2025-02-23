@@ -2,8 +2,8 @@
 from datetime import timedelta
 from typing import Any, Dict, List, Optional
 
-from pymelcloud.device import EFFECTIVE_FLAGS, Device
-from pymelcloud.client import Client
+from pekh_pymelcloud.device import EFFECTIVE_FLAGS, Device
+from pekh_pymelcloud.client import Client
 
 PROPERTY_TARGET_TEMPERATURE = "target_temperature"
 PROPERTY_OPERATION_MODE = "operation_mode"
