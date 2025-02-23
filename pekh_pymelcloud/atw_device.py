@@ -1,7 +1,7 @@
 """Air-To-Water (DeviceType=1) device definition."""
 from typing import Any, Callable, Dict, List, Optional
 
-from pymelcloud.device import EFFECTIVE_FLAGS, Device
+from pekh_pymelcloud.device import EFFECTIVE_FLAGS, Device
 
 PROPERTY_TARGET_TANK_TEMPERATURE = "target_tank_temperature"
 PROPERTY_OPERATION_MODE = "operation_mode"
