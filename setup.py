@@ -11,7 +11,7 @@ setup(
     license="MIT",
     url="https://github.com/pon-ekh/pymelcloud",
     python_requires=">3.5",
-    packages=["pekh_pymelcloud"],
+    packages=["pekh_pymelcloud2"],
     keywords=["homeautomation", "melcloud"],
     classifiers=[
         "Programming Language :: Python :: 3",
