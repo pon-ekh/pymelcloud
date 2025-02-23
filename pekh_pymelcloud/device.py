@@ -5,8 +5,8 @@ from datetime import datetime, timedelta, timezone
 from decimal import Decimal, ROUND_HALF_UP
 from typing import Any, Dict, List, Optional
 
-from pymelcloud.client import Client
-from pymelcloud.const import (
+from pekh_pymelcloud.client import Client
+from pekh_pymelcloud.const import (
     DEVICE_TYPE_LOOKUP,
     DEVICE_TYPE_UNKNOWN,
     UNIT_TEMP_CELSIUS,
