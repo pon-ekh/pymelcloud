@@ -4,13 +4,13 @@ from typing import Dict, List, Optional
 
 from aiohttp import ClientSession
 
-from pymelcloud.ata_device import AtaDevice
-from pymelcloud.atw_device import AtwDevice
-from pymelcloud.erv_device import ErvDevice
-from pymelcloud.client import Client as _Client
-from pymelcloud.client import login as _login
-from pymelcloud.const import DEVICE_TYPE_ATA, DEVICE_TYPE_ATW, DEVICE_TYPE_ERV
-from pymelcloud.device import Device
+from pekh_pymelcloud.ata_device import AtaDevice
+from pekh_pymelcloud.atw_device import AtwDevice
+from pekh_pymelcloud.erv_device import ErvDevice
+from pekh_pymelcloud.client import Client as _Client
+from pekh_pymelcloud.client import login as _login
+from pekh_pymelcloud.const import DEVICE_TYPE_ATA, DEVICE_TYPE_ATW, DEVICE_TYPE_ERV
+from pekh_pymelcloud.device import Device
 
 
 async def login(
